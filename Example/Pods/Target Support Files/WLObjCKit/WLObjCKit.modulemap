@@ -1,0 +1,6 @@
+framework module WLObjCKit {
+  umbrella header "WLObjCKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
