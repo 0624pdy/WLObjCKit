@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'WLObjCKit_Example' do
+  pod 'WLObjCKit', :path => '../'
+
+  target 'WLObjCKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
