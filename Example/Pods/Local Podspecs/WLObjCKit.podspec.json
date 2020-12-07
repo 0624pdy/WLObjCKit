@@ -1,9 +1,9 @@
 {
   "name": "WLObjCKit",
-  "version": "0.1.0",
-  "summary": "A short description of WLObjCKit.",
+  "version": "0.0.3",
+  "summary": "一个好用的OC开发工具包",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/0624pdy@sina.com/WLObjCKit",
+  "homepage": "https://github.com/0624pdy/WLObjCKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,22 @@
     "0624pdy@sina.com": "pengduanyang@jze100.com"
   },
   "source": {
-    "git": "https://github.com/0624pdy@sina.com/WLObjCKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/0624pdy/WLObjCKit.git",
+    "tag": "0.0.3"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "WLObjCKit/Classes/**/*"
+  "source_files": "WLObjCKit/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "WLFoundation",
+      "source_files": "WLObjCKit/Classes/WLFoundation/*",
+      "frameworks": [
+        "UIKit",
+        "Foundation",
+        "CoreGraphics"
+      ]
+    }
+  ]
 }

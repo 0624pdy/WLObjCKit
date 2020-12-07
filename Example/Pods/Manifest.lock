@@ -1,5 +1,7 @@
 PODS:
-  - WLObjCKit (0.1.0)
+  - WLObjCKit (0.0.3):
+    - WLObjCKit/WLFoundation (= 0.0.3)
+  - WLObjCKit/WLFoundation (0.0.3)
 
 DEPENDENCIES:
   - WLObjCKit (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WLObjCKit: 28e6027392abdc3f3f277807d4d7529a90cb713f
+  WLObjCKit: 86cc2c3f5b58c1dd2b99dcc9fcecbd0e7b4db98a
 
 PODFILE CHECKSUM: 1da70deb006f777c8f18952458c11efcc12fa560
 
