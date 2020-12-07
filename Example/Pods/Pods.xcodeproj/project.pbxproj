@@ -20,11 +20,11 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		02284200257E0BDD00E5A86C /* WLRequester.h in Headers */ = {isa = PBXBuildFile; fileRef = 022841FA257E0BDD00E5A86C /* WLRequester.h */; };
 		02284201257E0BDD00E5A86C /* WLNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 022841FB257E0BDD00E5A86C /* WLNetworking.h */; };
-		02284202257E0BDD00E5A86C /* WLRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 022841FC257E0BDD00E5A86C /* WLRequester.m */; };
 		02284203257E0BDD00E5A86C /* WLTypeDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 022841FE257E0BDD00E5A86C /* WLTypeDefines.h */; };
 		02284204257E0BDD00E5A86C /* WLObjCKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 022841FF257E0BDD00E5A86C /* WLObjCKit.h */; };
+		02284246257E160900E5A86C /* WLRequester.h in Headers */ = {isa = PBXBuildFile; fileRef = 02284244257E160900E5A86C /* WLRequester.h */; };
+		02284247257E160900E5A86C /* WLRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 02284245257E160900E5A86C /* WLRequester.m */; };
 		3D479C46B090BAD40C5CBD31C6B938ED /* Pods-WLObjCKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D2410FB5D84E9054E423AC9EC45BDE /* Pods-WLObjCKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4357E9FF5BEFBEE254AEF69D90EC1D76 /* Pods-WLObjCKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F69CE67216E040C0AB3D7E69A19ABC17 /* Pods-WLObjCKit_Tests-dummy.m */; };
 		7610686BBF7D40B935397212AECEEA41 /* Pods-WLObjCKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5DD54851C10FC7E78366767480860A /* Pods-WLObjCKit_Example-dummy.m */; };
@@ -51,11 +51,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		022841FA257E0BDD00E5A86C /* WLRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLRequester.h; sourceTree = "<group>"; };
 		022841FB257E0BDD00E5A86C /* WLNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLNetworking.h; sourceTree = "<group>"; };
-		022841FC257E0BDD00E5A86C /* WLRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLRequester.m; sourceTree = "<group>"; };
 		022841FE257E0BDD00E5A86C /* WLTypeDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTypeDefines.h; sourceTree = "<group>"; };
 		022841FF257E0BDD00E5A86C /* WLObjCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WLObjCKit.h; path = WLObjCKit/Classes/WLObjCKit.h; sourceTree = "<group>"; };
+		02284244257E160900E5A86C /* WLRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLRequester.h; sourceTree = "<group>"; };
+		02284245257E160900E5A86C /* WLRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLRequester.m; sourceTree = "<group>"; };
 		1048DB06531C27147204B1CBE9F87558 /* Pods_WLObjCKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLObjCKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5B2088D1B0D0E4EEB723819DCD71DD /* Pods-WLObjCKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WLObjCKit_Tests.modulemap"; sourceTree = "<group>"; };
 		30F1465F7BD130F6FDBE3240B139B072 /* WLObjCKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WLObjCKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -103,20 +103,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		022841F8257E0BDD00E5A86C /* WLCategory */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = WLCategory;
-			path = WLObjCKit/Classes/WLCategory;
-			sourceTree = "<group>";
-		};
 		022841F9257E0BDD00E5A86C /* WLNetworking */ = {
 			isa = PBXGroup;
 			children = (
 				022841FB257E0BDD00E5A86C /* WLNetworking.h */,
-				022841FA257E0BDD00E5A86C /* WLRequester.h */,
-				022841FC257E0BDD00E5A86C /* WLRequester.m */,
+				02284244257E160900E5A86C /* WLRequester.h */,
+				02284245257E160900E5A86C /* WLRequester.m */,
 			);
 			name = WLNetworking;
 			path = WLObjCKit/Classes/WLNetworking;
@@ -143,7 +135,6 @@
 			isa = PBXGroup;
 			children = (
 				022841FF257E0BDD00E5A86C /* WLObjCKit.h */,
-				022841F8257E0BDD00E5A86C /* WLCategory */,
 				022841FD257E0BDD00E5A86C /* WLFoundation */,
 				022841F9257E0BDD00E5A86C /* WLNetworking */,
 				E2860C45C6A934DA8890D7E3BC04805F /* Pod */,
@@ -257,9 +248,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02284246257E160900E5A86C /* WLRequester.h in Headers */,
 				02284203257E0BDD00E5A86C /* WLTypeDefines.h in Headers */,
 				02284204257E0BDD00E5A86C /* WLObjCKit.h in Headers */,
-				02284200257E0BDD00E5A86C /* WLRequester.h in Headers */,
 				3D479C46B090BAD40C5CBD31C6B938ED /* Pods-WLObjCKit_Example-umbrella.h in Headers */,
 				02284201257E0BDD00E5A86C /* WLNetworking.h in Headers */,
 			);
@@ -366,7 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7610686BBF7D40B935397212AECEEA41 /* Pods-WLObjCKit_Example-dummy.m in Sources */,
-				02284202257E0BDD00E5A86C /* WLRequester.m in Sources */,
+				02284247257E160900E5A86C /* WLRequester.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
