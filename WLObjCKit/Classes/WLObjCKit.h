@@ -8,7 +8,9 @@
 #ifndef WLObjCKit_h
 #define WLObjCKit_h
 
-#import "WLTypeDefines.h"
-#import "WLNetworking.h"
+#import <WLObjCKit/WLTypeDefines.h>
+#import <WLObjCKit/WLDefines.h>
+
+#import <WLObjCKit/WLNetworking.h>
 
 #endif /* WLObjCKit_h */

@@ -21,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02284296257E1DBF00E5A86C /* WLDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLDefines.h; sourceTree = "<group>"; };
 		20E876000D0B8C9DD3244C28 /* Pods_WLObjCKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLObjCKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA54B74154DF0C7F3CC2260 /* Pods-WLObjCKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLObjCKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-WLObjCKit_Tests/Pods-WLObjCKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4480BA21EECF19D0C9BDC839 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -103,6 +104,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* WLViewController.h */,
 				6003F5A6195388D20070C39A /* WLViewController.m */,
+				02284296257E1DBF00E5A86C /* WLDefines.h */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
