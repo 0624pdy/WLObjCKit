@@ -9,4 +9,7 @@
 #define WLTypeDefines_h
 
 
+typedef void(^WLBlock_Void)(void);
+
+
 #endif /* WLTypeDefines_h */

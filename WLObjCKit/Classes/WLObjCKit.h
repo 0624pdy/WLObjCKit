@@ -8,5 +8,6 @@
 #ifndef WLObjCKit_h
 #define WLObjCKit_h
 
+#import "WLTypeDefines.h"
 
 #endif /* WLObjCKit_h */

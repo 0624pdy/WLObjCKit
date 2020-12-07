@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		020CB922257BA20300971FEA /* WLObjCKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 020CB921257BA20300971FEA /* WLObjCKit.h */; };
 		020CB923257BA20300971FEA /* WLObjCKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 020CB921257BA20300971FEA /* WLObjCKit.h */; };
+		022840F3257DD56800E5A86C /* WLTypeDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 022840F2257DD56800E5A86C /* WLTypeDefines.h */; };
 		2E5BFF4EBE51B7B309F25437A0708069 /* WLObjCKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A53E12ED71582E591A9176B16C6B31D /* WLObjCKit-dummy.m */; };
 		2F1DCF1003B851433BC07A5E608C4A10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3D479C46B090BAD40C5CBD31C6B938ED /* Pods-WLObjCKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 361AACD24D540B2D92A6C1BBC0AAED61 /* Pods-WLObjCKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		020CB921257BA20300971FEA /* WLObjCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WLObjCKit.h; path = WLObjCKit/Classes/WLObjCKit.h; sourceTree = "<group>"; };
+		022840F2257DD56800E5A86C /* WLTypeDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLTypeDefines.h; sourceTree = "<group>"; };
 		0F58928CBA09B8E22C73DDCBB6F24042 /* WLObjCKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WLObjCKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		0F74B1B298B8914D68C7A6D0648EB89D /* Pods-WLObjCKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLObjCKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1048DB06531C27147204B1CBE9F87558 /* Pods_WLObjCKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLObjCKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +103,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		022840F0257DD53E00E5A86C /* WLFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				022840F2257DD56800E5A86C /* WLTypeDefines.h */,
+			);
+			name = WLFoundation;
+			path = WLObjCKit/Classes/WLFoundation;
+			sourceTree = "<group>";
+		};
+		022840F1257DD53E00E5A86C /* WLCategory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = WLCategory;
+			path = WLObjCKit/Classes/WLCategory;
+			sourceTree = "<group>";
+		};
 		0EBE45EE429A24EEB28B1D80B3B1CB40 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +200,8 @@
 		B1CE217DDE45C62DCB4E751E0356C852 /* WLObjCKit */ = {
 			isa = PBXGroup;
 			children = (
+				022840F1257DD53E00E5A86C /* WLCategory */,
+				022840F0257DD53E00E5A86C /* WLFoundation */,
 				020CB921257BA20300971FEA /* WLObjCKit.h */,
 				0EBE45EE429A24EEB28B1D80B3B1CB40 /* Pod */,
 				96C73E5B8B269A7C2504D002003F2C36 /* Support Files */,
@@ -249,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				020CB923257BA20300971FEA /* WLObjCKit.h in Headers */,
+				022840F3257DD56800E5A86C /* WLTypeDefines.h in Headers */,
 				9A32CD7739F49C615CC60D18DCCD7997 /* WLObjCKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
