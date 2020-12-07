@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WLObjCKit'
-  s.version          = '0.0.3.3'
+  s.version          = '0.0.4'
   s.summary          = '一个好用的OC开发工具包'
 
 # This description is used to generate tags and improve search results.
