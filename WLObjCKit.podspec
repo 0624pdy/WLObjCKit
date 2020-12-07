@@ -49,7 +49,7 @@ TODO: Add long description of the pod here.
   
   #MARK: 网络请求
   s.subspec 'WLNetworking' do |s2|
-      s2.source_files = 'WLObjCKit/Classes/WLNetworking/*'
+      s2.source_files = 'WLObjCKit/Classes/WLNetworking/**/*'
       s2.frameworks = 'UIKit', 'Foundation', 'CoreGraphics'
       s2.dependency 'AFNetworking'
   end
