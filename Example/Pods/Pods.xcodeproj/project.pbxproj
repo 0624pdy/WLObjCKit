@@ -10,6 +10,7 @@
 		020CB922257BA20300971FEA /* WLObjCKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 020CB921257BA20300971FEA /* WLObjCKit.h */; };
 		020CB923257BA20300971FEA /* WLObjCKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 020CB921257BA20300971FEA /* WLObjCKit.h */; };
 		022840F3257DD56800E5A86C /* WLTypeDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 022840F2257DD56800E5A86C /* WLTypeDefines.h */; };
+		0228416C257E024500E5A86C /* WLTypeDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 022840F2257DD56800E5A86C /* WLTypeDefines.h */; };
 		2E5BFF4EBE51B7B309F25437A0708069 /* WLObjCKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A53E12ED71582E591A9176B16C6B31D /* WLObjCKit-dummy.m */; };
 		2F1DCF1003B851433BC07A5E608C4A10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3D479C46B090BAD40C5CBD31C6B938ED /* Pods-WLObjCKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 361AACD24D540B2D92A6C1BBC0AAED61 /* Pods-WLObjCKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -253,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				020CB922257BA20300971FEA /* WLObjCKit.h in Headers */,
+				0228416C257E024500E5A86C /* WLTypeDefines.h in Headers */,
 				3D479C46B090BAD40C5CBD31C6B938ED /* Pods-WLObjCKit_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
