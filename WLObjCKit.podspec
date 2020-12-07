@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WLObjCKit'
-  s.version          = '0.0.3.2'
+  s.version          = '0.0.3.3'
   s.summary          = '一个好用的OC开发工具包'
 
 # This description is used to generate tags and improve search results.
@@ -49,7 +49,7 @@ TODO: Add long description of the pod here.
   
   #MARK: 网络请求
   s.subspec 'WLNetworking' do |s2|
-      s2.source_files = 'WLObjCKit/Classes/WLNetworking/**/*'
+      s2.source_files = 'WLObjCKit/Classes/WLNetworking/*'
       s2.frameworks = 'UIKit', 'Foundation', 'CoreGraphics'
       s2.dependency 'AFNetworking'
   end

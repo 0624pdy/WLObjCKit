@@ -9,5 +9,6 @@
 #define WLObjCKit_h
 
 #import "WLTypeDefines.h"
+#import "WLNetworking.h"
 
 #endif /* WLObjCKit_h */
