@@ -1,18 +1,41 @@
 PODS:
-  - WLObjCKit (0.0.3):
-    - WLObjCKit/WLFoundation (= 0.0.3)
-  - WLObjCKit/WLFoundation (0.0.3)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - WLObjCKit (0.0.4):
+    - WLObjCKit/WLFoundation (= 0.0.4)
+    - WLObjCKit/WLNetworking (= 0.0.4)
+  - WLObjCKit/WLFoundation (0.0.4)
+  - WLObjCKit/WLNetworking (0.0.4):
+    - AFNetworking
 
 DEPENDENCIES:
   - WLObjCKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   WLObjCKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WLObjCKit: 86cc2c3f5b58c1dd2b99dcc9fcecbd0e7b4db98a
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  WLObjCKit: 74233c1fe66ca2cdd52624787bd500652483dd39
 
-PODFILE CHECKSUM: 1da70deb006f777c8f18952458c11efcc12fa560
+PODFILE CHECKSUM: 3cb2d4d0b98d0936f69c007cad72364ee0b61c90
 
 COCOAPODS: 1.9.3
