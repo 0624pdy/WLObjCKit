@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WLObjCKit'
-  s.version          = '0.0.5.3'
+  s.version          = '0.0.5.4'
   s.summary          = '一个实用的 Objective-C 开发工具包'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'WLObjCKit/Classes/*.{h}', 'WLObjCKit/Classes/WLFoundation', 'WLObjCKit/Classes/WLNetworking'
+  s.source_files = 'WLObjCKit/Classes/*.{h}'
   
   # s.resource_bundles = {
   #   'WLObjCKit' => ['WLObjCKit/Assets/*.png']
